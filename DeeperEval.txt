@@ -1,0 +1,51 @@
+**** using CUDA
+**** loading object detector at /user/3/elkazdaz/vorf/01-intro-to-neural-nets/output/best_model.pth...
+**** object detector loaded
+Evaluating train set...
+Evaluating 1277 samples...
+Evaluating validation set...
+Evaluating 160 samples...
+Evaluating test set...
+Evaluating 160 samples...
+
+*** train set accuracy
+	Mean accuracy for all labels: 1.0
+	Mean iou for all labels: 0.8183961682717917
+
+	Mean accuracy for label motorcycle: 1.0
+		 639 over 639 samples
+
+	Mean IoU for label motorcycle: 0.8499840615091363
+
+	Mean accuracy for label car: 1.0
+		 638 over 638 samples
+
+	Mean IoU for label car: 0.7867587642300002
+
+*** validation set accuracy
+	Mean accuracy for all labels: 1.0
+	Mean iou for all labels: 0.7752301637803375
+
+	Mean accuracy for label motorcycle: 1.0
+		 78 over 78 samples
+
+	Mean IoU for label motorcycle: 0.830900585636748
+
+	Mean accuracy for label car: 1.0
+		 82 over 82 samples
+
+	Mean IoU for label car: 0.722275372258386
+
+*** test set accuracy
+	Mean accuracy for all labels: 0.99375
+	Mean iou for all labels: 0.7794418593091788
+
+	Mean accuracy for label motorcycle: 1.0
+		 80 over 80 samples
+
+	Mean IoU for label motorcycle: 0.8218686831713191
+
+	Mean accuracy for label car: 0.9875
+		 79 over 80 samples
+
+	Mean IoU for label car: 0.7370150354470384
